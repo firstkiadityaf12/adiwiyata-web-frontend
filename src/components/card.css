@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    box-sizing: border-box;
+}
+.titel{
+    margin: 30px;
+}
+.titel h1{
+    text-align: center;
+    color: black;
+}
+.line{
+    width: 200px;
+    height: 4px;
+    background: linear-gradient(to right ,#009879, #024e3f);
+    margin: 25px auto;
+
+}
+.wadah{
+    width: 100%;
+    padding: 60px 0;
+}
+.inner{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+.wadah .inner .galeri{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.galeri img{
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+    width: 250px;
+    height: 200px;
+}

@@ -1,0 +1,14 @@
+.titel{
+    margin: 30px;
+}
+.titel h1{
+    text-align: center;
+    color: black;
+}
+.line{
+    width: 200px;
+    height: 4px;
+    background: linear-gradient(to right ,#009879, #024e3f);
+    margin: 25px auto;
+
+}
